@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  width: 10px;
+  height: 10px;
+}
+
+.customBtns1 {
+  margin-top: 20px;
+}
+
+.primaryBtn {
+  background-color: blue;
+  color: white;
+  font-size: large;
+}
+
+.primaryBtn:hover {
+  background-color: rgb(86, 86, 249) !important;
+}
+
+.defaultBtn {
+  color: black;
+  font-size: large;
+}
+
+.defaultBtn:hover {
+  color: rgb(86, 86, 249) !important;
+}
+
+.dashedBtn {
+  color: black;
+  font-size: large;
+}
+
+.dashedBtn:hover {
+  color: rgb(86, 86, 249) !important;
+}
+
+.textBtn {
+  color: black;
+  font-size: large;
+}
+
+.textBtn:hover {
+  background-color: rgb(162, 162, 255) !important;
+  color: #fff !important;
+}
+
+.linkBtn {
+  color: blue;
+  font-size: large;
+}
+
+.linkBtn:hover {
+  color: rgb(0, 0, 178) !important;
+}
+
+.button2 {
+  margin-top: 40px;
+}
+
+.button3 {
+  margin-top: 40px;
+}
+
+.buttonHR {
+  margin-top: 20px;
+}
+
+.button4 {
+  margin-top: 40px;
+}
+
+.card .cardImg {
+  display: block;
+}
+
+.card:hover .cardImg {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.deleteBtn {
+  background-color: red;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(253, 61, 61) !important;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.editBtn {
+  background-color: rgb(255, 255, 0);
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+
+.editBtn:hover {
+  background-color: rgb(240, 253, 61) !important;
+  font-weight: bold;
+  color: #fff !important;
+}/*# sourceMappingURL=main.css.map */

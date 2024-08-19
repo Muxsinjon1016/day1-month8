@@ -1,0 +1,36 @@
+.card .cardImg {
+  display: block;
+}
+
+.card:hover .cardImg {
+  transform: scale(1.5);
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.deleteBtn {
+  background-color: red;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+.deleteBtn:hover {
+  background-color: rgb(253, 61, 61) !important;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.editBtn {
+  background-color: rgb(255, 255, 0);
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+.editBtn:hover {
+  background-color: rgb(240, 253, 61) !important;
+  font-weight: bold;
+  color: #fff !important;
+}
